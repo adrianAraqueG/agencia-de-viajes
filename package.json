@@ -13,11 +13,11 @@
   "dependencies": {
     "express": "^4.17.1",
     "mysql2": "^2.3.2",
+    "dotenv": "^10.0.0",
     "pug": "^3.0.2",
     "sequelize": "^6.8.0"
   },
   "devDependencies": {
-    "dotenv": "^10.0.0",
     "nodemon": "^2.0.14"
   }
 }
