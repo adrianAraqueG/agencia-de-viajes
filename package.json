@@ -5,19 +5,17 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node server"
+    "start": "node index.js"
   },
   "type": "module",
   "author": "Adrian Araque",
   "license": "ISC",
   "dependencies": {
+    "nodemon": "^2.0.14",
     "express": "^4.17.1",
     "mysql2": "^2.3.2",
     "dotenv": "^10.0.0",
     "pug": "^3.0.2",
     "sequelize": "^6.8.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.14"
   }
 }
